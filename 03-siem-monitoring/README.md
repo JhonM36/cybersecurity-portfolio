@@ -139,58 +139,44 @@ sudo bash wazuh-install.sh --wazuh-dashboard dashboard -i
 
 ## 📸 Evidencias
 
-### 1️⃣ Wazuh Manager activo
+### 1️⃣ Error durante la instalación
+![wazuh-error](capturas/01-wazuh-error.png)
+
+### 2️⃣ Solución — Inicialización del cluster
+![wazuh-solucion](capturas/02-wazuh-solucion.png)
+
+### 3️⃣ Wazuh Manager activo
 El servicio `wazuh-manager` en estado `active (running)` con todos sus
 procesos internos iniciados correctamente.
+![wazuh-manager](capturas/03-wazuh-manager.png)
 
-![wazuh-manager](capturas/01-wazuh-manager.png)
+### 4️⃣ Wazuh Indexer activo
+El servicio `wazuh-indexer` en estado `active (running)`.
+![wazuh-indexer](capturas/04-wazuh-indexer.png)
 
-### 2️⃣ Wazuh Indexer activo
-El servicio `wazuh-indexer` en estado `active (running)`, motor de
-búsqueda basado en OpenSearch responsable de indexar todos los eventos.
+### 5️⃣ Wazuh Dashboard activo
+El servicio `wazuh-dashboard` en estado `active (running)`.
+![wazuh-dashboard](capturas/05-wazuh-dashboard.png)
 
-![wazuh-indexer](capturas/02-wazuh-indexer.png)
+### 6️⃣ Login de Wazuh
+Acceso exitoso a la interfaz web con el usuario `admin`.
+![login](capturas/06-login.png)
 
-### 3️⃣ Wazuh Dashboard activo
-El servicio `wazuh-dashboard` en estado `active (running)`, confirmando
-que la interfaz web está disponible.
+### 7️⃣ Advertencia SSL del navegador
+Certificado self-signed generado por Wazuh. Normal en laboratorio.
+![ssl-warning](capturas/07-ssl-warning.png)
 
-![wazuh-dashboard](capturas/03-wazuh-dashboard.png)
+### 8️⃣ Dashboard principal
+Panel con todos los módulos de Wazuh disponibles.
+![dashboard](capturas/08-dashboard.png)
 
-### 4️⃣ Advertencia SSL del navegador
-Firefox detectó el certificado self-signed generado por Wazuh durante
-la instalación. Comportamiento esperado en entornos de laboratorio.
+### 9️⃣ Instalación del agente en Windows 10
+![agente-instalacion](capturas/09-agente-instalacion.png)
 
-![ssl-warning](capturas/04-ssl-warning.png)
+### 🔟 Agente W10 activo en el dashboard
+![agente-activo](capturas/10-agente-activo.png)
 
-### 5️⃣ Login de Wazuh
-Acceso exitoso a la interfaz web del dashboard con el usuario `admin`.
-
-![login](capturas/05-login.png)
-
-### 6️⃣ Dashboard principal
-Panel principal de Wazuh con todos sus módulos disponibles: Security Events,
-Integrity Monitoring, Policy Monitoring, System Auditing, Vulnerabilities,
-MITRE ATT&CK, PCI DSS y NIST 800-53.
-
-![dashboard](capturas/06-dashboard.png)
-
-### 7️⃣ Instalación del agente en Windows 10
-Ejecución del comando de instalación en PowerShell como Administrador.
-El agente quedó instalado y el servicio inició exitosamente.
-
-![agente-instalacion](capturas/07-agente-instalacion.png)
-
-### 8️⃣ Agente W10 activo en el dashboard
-El agente W10 aparece conectado con status `active`, IP `192.168.1.45`,
-Windows 10 Pro y cobertura del 100%.
-
-![agente-activo](capturas/08-agente-activo.png)
-
-### 9️⃣ Alertas de seguridad con MITRE ATT&CK
-Wazuh detectó y correlacionó automáticamente los eventos generados
-con las siguientes técnicas del framework MITRE ATT&CK:
-
+### 1️⃣1️⃣ Alertas de seguridad con MITRE ATT&CK
 | Técnica | Táctica | Descripción | Nivel |
 |---------|---------|-------------|-------|
 | T1098, T1531 | Persistence, Impact | User account disabled or deleted | 🔴 8 |
@@ -199,8 +185,7 @@ con las siguientes técnicas del framework MITRE ATT&CK:
 | T1484 | Defense Evasion, Privilege Escalation | Domain users group changed | 🟡 5 |
 | T1484 | Defense Evasion, Privilege Escalation | Users group changed | 🟡 5 |
 
-![alertas](capturas/09-alertas-mitre.png)
-
+![alertas](capturas/11-alertas-mitre.png)
 ---
 
 ## ✅ Conclusiones
