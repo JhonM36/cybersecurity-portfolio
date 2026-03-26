@@ -41,7 +41,7 @@
 | 03 | [Análisis de Vulnerabilidades con Nessus](./02-vulnerability-scanning/) | Nessus | 🔜 Próximamente |
 | 04 | [Monitoreo con SIEM - Wazuh](./03-siem-monitoring/) | Wazuh | 🔜 Próximamente |
 | 05 | [Hardening en Windows](./04-hardening/) | Windows Server | 🔜 Próximamente |
-| 06 | [Configuración de Firewall y ACLs](./05-network-security/) | Cisco Packet Tracer | 🔜 Próximamente |
+| 06 | [Monitoreo con SIEM - Wazuh](./03-siem-monitoring/) | Wazuh | ✅ Completado |
 
 ---
 
