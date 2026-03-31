@@ -53,7 +53,7 @@ Administración de redes LAN empresariales, soporte a VPN, configuración de swi
 |---|-------------|--------------|--------|
 | 01 | [Análisis de Tráfico + Ataque con Wireshark](./01-network-analysis/) | Wireshark, Nmap, Apache2 | ✅ Completado |
 | 02 | [Escaneo y Vulnerabilidades](./02-vulnerability-scanning/) | Nmap, Nessus | 🔜 Próximamente |
-| 03 | [Monitoreo con SIEM](./03-siem-monitoring/) | Wazuh | 🔜 Próximamente |
+| 03 | [Monitoreo con SIEM](./03-siem-monitoring/) | Wazuh | ✅ Completado  |
 | 04 | [Hardening en Windows](./04-hardening/) | Windows Server | 🔜 Próximamente |
 | 05 | [Seguridad de Red: Firewalls y ACLs](./05-network-security/) | pfSense, Cisco | 🔜 Próximamente |
 
