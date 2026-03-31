@@ -348,19 +348,6 @@ Wireshark muestra `user=hola` y `pass=mundo1` en el HTTP POST desde Windows.
 
 ---
 
-## 🔵 Perspectiva Blue Team
-
-| Actividad ejecutada | Alerta en SOC real |
-|---|---|
-| SYN scan (nmap -sS) | "Port scan detected — 996 ports probed in 9s" |
-| Version scan (nmap -sV) | "Service enumeration attempt detected" |
-| Aggressive scan (nmap -A) | "OS fingerprinting + SMB enumeration" |
-| Ping sweep | "ICMP echo sweep from single host" |
-| HTTP credential capture | "Credentials transmitted in cleartext (HTTP POST)" |
-| Apache phishing page | "Suspicious HTTP server on non-standard host" |
-
----
-
 ## ✅ Conclusiones
 
 1. Se verificó conectividad bidireccional entre Kali y Windows en entorno virtualizado
