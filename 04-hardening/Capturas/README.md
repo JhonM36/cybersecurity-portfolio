@@ -1,4 +1,4 @@
-<img width="610" height="172" alt="22-verify-firewall" src="https://github.com/user-attachments/assets/03023069-e77b-445c-b082-893d6c331040" /><img width="624" height="102" alt="01-policyanalyzer-tool" src="https://github.com/user-attachments/assets/49589972-2b7b-4e80-b810-4ca75c4887e0" />
+<img width="624" height="102" alt="01-policyanalyzer-tool" src="https://github.com/user-attachments/assets/b98c1c9e-7606-4092-b0c0-524af7e721c3" />
 <img width="624" height="274" alt="02-gpo-backup" src="https://github.com/user-attachments/assets/868e31fe-77d8-4753-9b1e-2b95e651a45a" />
 <img width="624" height="199" alt="03-policy-importer" src="https://github.com/user-attachments/assets/9af1d7b0-e16f-49da-9054-f5a5c52b7c52" />
 <img width="624" height="413" alt="04-analysis-complete" src="https://github.com/user-attachments/assets/0d99c80e-f50f-4c95-b532-ab498d6a78a6" />
