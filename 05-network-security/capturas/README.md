@@ -1,0 +1,13 @@
+<img width="624" height="241" alt="13-nmap-final" src="https://github.com/user-attachments/assets/3367bf39-1077-412b-844a-ba9fc21c91fa" />
+<img width="624" height="394" alt="12-curl-nat" src="https://github.com/user-attachments/assets/85acb373-1bc9-4b1b-9343-ffed82644331" />
+<img width="624" height="285" alt="11-iis-localhost" src="https://github.com/user-attachments/assets/df8872e2-14bb-44d8-8162-e2078423f932" />
+<img width="624" height="589" alt="10-nat-config" src="https://github.com/user-attachments/assets/ce9b8e45-a8f5-4349-8659-b8e77aad52f7" />
+<img width="555" height="277" alt="09-nmap-filtered" src="https://github.com/user-attachments/assets/b82ea7c5-2d64-4eb0-b328-768bf161aa31" />
+<img width="624" height="543" alt="08-rule-smb" src="https://github.com/user-attachments/assets/233a2d30-d6f8-40ff-b102-95d528c0e0d0" />
+<img width="624" height="548" alt="07-rule-rdp" src="https://github.com/user-attachments/assets/d2737a4f-2341-43f6-a7a0-22934b916588" />
+<img width="624" height="536" alt="06-rule-telnet" src="https://github.com/user-attachments/assets/c4e3ec19-da51-4e23-aca1-ecbddd5c49c8" />
+<img width="624" height="232" alt="05-ping-blocked" src="https://github.com/user-attachments/assets/d350e087-40e1-493c-bc6a-0fb828699f25" />
+<img width="624" height="449" alt="04-rule-icmp" src="https://github.com/user-attachments/assets/49a07930-5710-4253-a5b5-dec742e80418" />
+<img width="624" height="367" alt="03-dashboard" src="https://github.com/user-attachments/assets/9f85f046-2609-4f0d-a870-76bbb491792e" />
+<img width="624" height="313" alt="02-wizard-config" src="https://github.com/user-attachments/assets/8ba7dcc2-3648-4016-a8e7-080e0d74cffe" />
+<img width="624" height="296" alt="01-pfsense-consola" src="https://github.com/user-attachments/assets/78ff6fe0-2d16-4e0e-bd8e-f699a6fe855b" />
