@@ -28,7 +28,7 @@ que realiza un analista de seguridad en entornos reales.
 ## 🛠️ Herramientas utilizadas
 
 - **PolicyAnalyzer 4.0** — Auditoría y comparación de políticas de grupo (GPO)
-- **Nessus Essentials** — Validación de vulnerabilidades antes/después del hardening
+- ** Essentials** — Validación de vulnerabilidades antes/después del hardening
 - **PowerShell** — Aplicación de controles CIS via cmdlets y registry
 - **Group Policy Management** — Backup y gestión de GPOs del dominio
 
@@ -83,7 +83,7 @@ configurado y el estado real del servidor en categorías de auditoría:
 | File System | Success and Failure | Success and Failure |
 | Handle Manipulation | Success and Failure | Success and Failure |
 
-#### Nessus — Escaneo inicial (antes del hardening)
+####  — Escaneo inicial (antes del hardening)
 
 **Escaneo:** `Lab04-Window Server` contra `192.168.1.28`
 **Duración:** 14 minutos | **Auth:** Fail (sin credenciales)
@@ -102,7 +102,7 @@ configurado y el estado real del servidor en categorías de auditoría:
 - SMB (Multiple Issues) — 6 findings
 - HTTP (Multiple Issues) — 2 findings
 - DCE Services Enumeration — 13 findings
-- Nessus SYN Scanner — 12 findings
+-  SYN Scanner — 12 findings
 - DNS Server Detection — 2 findings
 - LDAP Crafted Search Request Server Information Disclosure — 2 findings
 - LDAP Server Detection — 2 findings
@@ -113,7 +113,7 @@ configurado y el estado real del servidor en categorías de auditoría:
 
 > **Nota:** La ausencia de Critical/High pre-hardening indica que Windows Server 2019
 > tiene mejoras de seguridad por defecto vs versiones anteriores. El hardening busca
-> cerrar vectores de ataque que Nessus sin credenciales no detecta.
+> cerrar vectores de ataque que  sin credenciales no detecta.
 
 ---
 
@@ -329,11 +329,11 @@ UserAuthentication: 1  ✅ (NLA requerido)
 ### 6️⃣ PolicyAnalyzer — Compare to Effective State
 <img width="624" height="392" alt="06-effective-state" src="https://github.com/user-attachments/assets/30928027-0f72-4f39-8a4c-1c3e4515dd59" />
 
-### 7️⃣ Nessus — Escaneo inicial (pre-hardening)
-<img width="624" height="197" alt="07-nessus-prescan" src="https://github.com/user-attachments/assets/dd0dd4bf-019b-40d8-8532-ee406f2a6596" />
+### 7️⃣  — Escaneo inicial (pre-hardening)
+<img width="624" height="197" alt="07--prescan" src="https://github.com/user-attachments/assets/dd0dd4bf-019b-40d8-8532-ee406f2a6596" />
 
-### 8️⃣ Nessus — 22 findings informativos pre-hardening
-<img width="624" height="238" alt="08-nessus-findings" src="https://github.com/user-attachments/assets/57565451-7aec-43ad-9306-70e8b4996cf1" />
+### 8️⃣  — 22 findings informativos pre-hardening
+<img width="624" height="238" alt="08--findings" src="https://github.com/user-attachments/assets/57565451-7aec-43ad-9306-70e8b4996cf1" />
 
 ---
 
@@ -472,7 +472,7 @@ UserAuthentication: 1  ✅ (NLA requerido)
    LLMNR (NTLM Relay), Print Spooler (PrintNightmare) y RDP sin NLA (BlueKeep)
 3. La auditoría de eventos habilitada transforma el servidor en un host monitoreable —
    ahora cualquier actividad sospechosa genera Event IDs capturables por un SIEM como Wazuh
-4. Nessus confirmó que post-hardening no existen vulnerabilidades de severidad
+4. Nessus confirmó que post-hardening No se detectaron vulnerabilidades externas sin autenticación
    Critical, High o Medium detectables sin credenciales
 5. La política de contraseñas (mínimo 14 caracteres, historial 24) elimina los vectores
    más comunes de compromiso de cuentas: fuerza bruta y password spraying
