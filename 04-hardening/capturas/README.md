@@ -1,1 +1,25 @@
-
+<img width="624" height="102" alt="01-policyanalyzer-tool" src="https://github.com/user-attachments/assets/6c497bae-ca14-4537-8f47-82460e76f766" />
+<img width="624" height="413" alt="04-analysis-complete" src="https://github.com/user-attachments/assets/7226b061-252a-4474-a5ed-fef41d0d06fd" />
+<img width="624" height="199" alt="03-policy-importer" src="https://github.com/user-attachments/assets/421b35ee-7375-4597-8baa-fbc8c00c48b3" />
+<img width="624" height="274" alt="02-gpo-backup" src="https://github.com/user-attachments/assets/476c8815-388c-4d15-b9de-1cdeadb89a67" />
+<img width="624" height="119" alt="25-verify-nla" src="https://github.com/user-attachments/assets/7383efa5-58bf-425d-b868-416a32813a52" />
+<img width="624" height="130" alt="24-verify-llmnr" src="https://github.com/user-attachments/assets/1c5aab0a-76c2-4ac5-bf21-0dbeabc80722" />
+<img width="552" height="755" alt="23-verify-audit" src="https://github.com/user-attachments/assets/46442d52-d1b2-42ce-add7-2b0879f086c2" />
+<img width="610" height="172" alt="22-verify-firewall" src="https://github.com/user-attachments/assets/67dd7895-25be-48d7-b940-804d27d84121" />
+<img width="624" height="163" alt="21-verify-smb" src="https://github.com/user-attachments/assets/136fea34-d4c5-4cf0-8f4c-f29ca6c79958" />
+<img width="624" height="160" alt="20-verify-services" src="https://github.com/user-attachments/assets/d9c5e627-7f7c-462b-86ef-d30d9048338b" />
+<img width="550" height="259" alt="19-verify-passwords" src="https://github.com/user-attachments/assets/999dddad-8162-4972-a59a-44da7c10c934" />
+<img width="624" height="84" alt="18-defender" src="https://github.com/user-attachments/assets/4fd0f206-6409-42db-8362-971f1f7fdeae" />
+<img width="624" height="40" alt="17-nla-rdp" src="https://github.com/user-attachments/assets/c5302f4d-bd7c-4140-a857-118cc4df5b03" />
+<img width="624" height="590" alt="16-netbios-disabled" src="https://github.com/user-attachments/assets/a5c765c4-3695-4404-8e11-d8aa0cf02f55" />
+<img width="624" height="163" alt="15-llmnr-disabled" src="https://github.com/user-attachments/assets/108f6890-0187-4df6-ba14-4e7283dbfad6" />
+<img width="624" height="63" alt="14-audit-policy" src="https://github.com/user-attachments/assets/656140c6-4359-488e-8105-3e8bb05424b3" />
+<img width="624" height="33" alt="13-firewall-enabled" src="https://github.com/user-attachments/assets/e00b1710-3ec1-4440-9a7e-8f913b7c1549" />
+<img width="624" height="45" alt="12-smb-disabled" src="https://github.com/user-attachments/assets/001c8f44-27b8-4f64-a2b8-f68837a338f2" />
+<img width="624" height="47" alt="11-services-disabled" src="https://github.com/user-attachments/assets/372d6a4b-f39f-46c5-b443-f0ed57c3ef2b" />
+<img width="567" height="158" alt="10-lockout-policy" src="https://github.com/user-attachments/assets/d865e114-ad11-4f15-88ab-cc6cfc26de5d" />
+<img width="624" height="135" alt="09-password-policy" src="https://github.com/user-attachments/assets/2f4b225d-f0db-48ad-b34c-620af439beca" />
+<img width="624" height="238" alt="08-nessus-findings" src="https://github.com/user-attachments/assets/57565451-7aec-43ad-9306-70e8b4996cf1" />
+<img width="624" height="197" alt="07-nessus-prescan" src="https://github.com/user-attachments/assets/dd0dd4bf-019b-40d8-8532-ee406f2a6596" />
+<img width="624" height="392" alt="06-effective-state" src="https://github.com/user-attachments/assets/30928027-0f72-4f39-8a4c-1c3e4515dd59" />
+<img width="624" height="414" alt="05-policy-compare" src="https://github.com/user-attachments/assets/de647bed-5101-4549-9284-368eb2819eba" />
