@@ -22,7 +22,7 @@
 ## Experiencia
 
 **Pasante — Seguridad Electrónica | Dirección General de Aduanas (DGA)**
-`Noviembre 2025 – Presente`
+`Noviembre 2025 – Febrero 2026`
 Instalación y soporte de sistemas CCTV (IP y analógica), control de acceso biométrico, sistemas de alarma e intrusión y detección de incendios.
 
 **Soporte Técnico | Consultoría Tecnológica Avanzada — Grupos CTA**
