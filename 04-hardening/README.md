@@ -198,49 +198,49 @@ UserAuthentication:   1  ✅ (NLA requerido)
 ## 📸 Capturas de Pantalla
 
 ### 1️⃣ PolicyAnalyzer — Herramienta
-*(agregar: capturas/01-policyanalyzer.png)*
+<img width="624" height="102" alt="01-policyanalyzer-tool" src="https://github.com/user-attachments/assets/6c497bae-ca14-4537-8f47-82460e76f766" />
 
 ### 2️⃣ PolicyAnalyzer — Backup de GPOs
-*(agregar: capturas/02-gpo-backup.png)*
+<img width="624" height="274" alt="02-gpo-backup" src="https://github.com/user-attachments/assets/476c8815-388c-4d15-b9de-1cdeadb89a67" />
 
 ### 3️⃣ PolicyAnalyzer — Policy File Importer
-*(agregar: capturas/03-policy-importer.png)*
+<img width="624" height="199" alt="03-policy-importer" src="https://github.com/user-attachments/assets/421b35ee-7375-4597-8baa-fbc8c00c48b3" />
 
 ### 4️⃣ PolicyAnalyzer — Análisis completado
-*(agregar: capturas/04-analysis-complete.png)*
+<img width="624" height="413" alt="04-analysis-complete" src="https://github.com/user-attachments/assets/7226b061-252a-4474-a5ed-fef41d0d06fd" />
 
 ### 5️⃣ PolicyAnalyzer — View/Compare (69 items)
-*(agregar: capturas/05-policy-compare.png)*
+<img width="624" height="414" alt="05-policy-compare" src="https://github.com/user-attachments/assets/de647bed-5101-4549-9284-368eb2819eba" />
 
 ### 6️⃣ PolicyAnalyzer — Compare to Effective State
-*(agregar: capturas/06-effective-state.png)*
+<img width="624" height="392" alt="06-effective-state" src="https://github.com/user-attachments/assets/30928027-0f72-4f39-8a4c-1c3e4515dd59" />
 
 ### 7️⃣ Nessus — Escaneo pre-hardening
-*(agregar: capturas/07-nessus-pre.png)*
+<img width="624" height="197" alt="07-nessus-prescan" src="https://github.com/user-attachments/assets/dd0dd4bf-019b-40d8-8532-ee406f2a6596" />
 
 ### 8️⃣ PowerShell — Política de contraseñas
-*(agregar: capturas/08-password-policy.png)*
+<img width="624" height="135" alt="09-password-policy" src="https://github.com/user-attachments/assets/2f4b225d-f0db-48ad-b34c-620af439beca" />
 
 ### 9️⃣ PowerShell — Bloqueo de cuenta
-*(agregar: capturas/09-lockout.png)*
+<img width="567" height="158" alt="10-lockout-policy" src="https://github.com/user-attachments/assets/d865e114-ad11-4f15-88ab-cc6cfc26de5d" />
 
 ### 🔟 PowerShell — Servicios deshabilitados
-*(agregar: capturas/10-services.png)*
+<img width="624" height="47" alt="11-services-disabled" src="https://github.com/user-attachments/assets/372d6a4b-f39f-46c5-b443-f0ed57c3ef2b" />
 
 ### 1️⃣1️⃣ PowerShell — SMBv1 deshabilitado
-*(agregar: capturas/11-smb.png)*
+<img width="624" height="45" alt="12-smb-disabled" src="https://github.com/user-attachments/assets/001c8f44-27b8-4f64-a2b8-f68837a338f2" />
 
 ### 1️⃣2️⃣ PowerShell — Firewall habilitado
-*(agregar: capturas/12-firewall.png)*
+<img width="624" height="33" alt="13-firewall-enabled" src="https://github.com/user-attachments/assets/e00b1710-3ec1-4440-9a7e-8f913b7c1549" />
 
 ### 1️⃣3️⃣ PowerShell — Auditoría configurada
-*(agregar: capturas/13-audit.png)*
+<img width="624" height="63" alt="14-audit-policy" src="https://github.com/user-attachments/assets/656140c6-4359-488e-8105-3e8bb05424b3" />
 
 ### 1️⃣4️⃣ PowerShell — LLMNR deshabilitado
-*(agregar: capturas/14-llmnr.png)*
+<img width="624" height="163" alt="15-llmnr-disabled" src="https://github.com/user-attachments/assets/108f6890-0187-4df6-ba14-4e7283dbfad6" />
 
 ### 1️⃣5️⃣ PowerShell — NLA en RDP
-*(agregar: capturas/15-nla.png)*
+<img width="624" height="40" alt="17-nla-rdp" src="https://github.com/user-attachments/assets/c5302f4d-bd7c-4140-a857-118cc4df5b03" />
 
 ---
 
