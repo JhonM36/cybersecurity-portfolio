@@ -6,9 +6,9 @@
 ![Blue Team](https://img.shields.io/badge/Focus-Blue_Team_/_SOC-informational?style=for-the-badge)
 ![Labs](https://img.shields.io/badge/Labs_Completados-5_/_5-success?style=for-the-badge)
 
-> Analista de Redes y Soporte Técnico con formación en Ciberseguridad.
-> Este repositorio documenta mis laboratorios prácticos, herramientas y aprendizajes continuos
-> en el área de seguridad defensiva (Blue Team / SOC).
+> Analista de Ciberseguridad orientado a Blue Team con experiencia en monitoreo SIEM, análisis de tráfico y hardening de sistemas.
+> Enfocado en detección de amenazas, análisis de vulnerabilidades y seguridad perimetral.
+
 
 ---
 
