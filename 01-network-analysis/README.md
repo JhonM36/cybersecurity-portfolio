@@ -14,7 +14,7 @@ Alguien está enviando miles de paquetes SYN hacia un host Windows en menos de 1
 Minutos después, ese mismo host empieza a recibir peticiones HTTP con credenciales
 en texto claro hacia una IP desconocida dentro de la red.
 
-Este laboratorio reproduce exactamente ese escenario — desde la perspectiva del atacante
+Este laboratorio reproduce exactamente ese escenario desde la perspectiva del atacante
 que genera el tráfico y del analista que lo captura y analiza con Wireshark.
 Entender ambos lados es lo que convierte a un técnico en un analista SOC.
 
@@ -157,7 +157,7 @@ Filtro: `icmp` → 8 paquetes mostrados de 20 capturados (40%)
 | HTTP | `http` | URLs, headers y datos en texto claro — 6 paquetes (0.1%) |
 | HTTPS | `tls` | Solo "Application Data" cifrado — 1,697 paquetes (13.5%) |
 
-**Conclusión:** HTTP expone todo. HTTPS cifra el payload — inaccesible sin clave privada.
+**Conclusión:** HTTP expone todo. HTTPS cifra el payload inaccesible sin clave privada.
 
 ---
 
@@ -191,7 +191,7 @@ Form item: "pass" = "mundo1"
 ### Error — Ping fallido (Bridge + NAT)
 
 **Causa:** Kali en modo Bridged (192.168.1.x) y Windows en NAT (192.168.142.x).
-Redes distintas — NAT solo permite tráfico de salida.
+Redes distintas NAT solo permite tráfico de salida.
 
 **Solución:** Se unificó ambas VMs en NAT compartido, logrando conectividad
 bidireccional en el mismo segmento de red.
@@ -234,7 +234,7 @@ bidireccional en el mismo segmento de red.
 
 ## 🔍 Findings (Hallazgos)
 
-- Se detectó un escaneo SYN activo desde Kali hacia Windows — 3,518 paquetes en menos de 10 segundos
+- Se detectó un escaneo SYN activo desde Kali hacia Windows, 3,518 paquetes en menos de 10 segundos
 - Se identificaron 4 puertos abiertos: 135 (RPC), 139 (NetBIOS), 445 (SMB), 5357 (HTTPAPI)
 - El escaneo agresivo reveló nombre del equipo, versión del SO y configuración SMB
 - SMB signing habilitado pero **no requerido** — configuración débil
@@ -274,23 +274,23 @@ bidireccional en el mismo segmento de red.
 
 ## 💼 ¿Por qué importa esto en el mundo real?
 
-Este laboratorio replica la **fase de reconocimiento del Cyber Kill Chain** —
+Este laboratorio replica la **fase de reconocimiento del Cyber Kill Chain** 
 el primer paso que da cualquier atacante antes de comprometer un sistema.
 
 En un entorno corporativo real, el SYN scan que ejecuté generaría una alerta
 en el SIEM en segundos. Sin embargo, el 80% de las organizaciones pequeñas y
-medianas en la región no tienen un SIEM configurado — lo que significa que
+medianas en la región no tienen un SIEM configurado lo que significa que
 ese escaneo pasaría completamente desapercibido.
 
 La captura de credenciales via HTTP no es un ataque sofisticado. Es una técnica
-de 1996 que sigue funcionando en 2026 porque muchos sistemas internos —
-impresoras, cámaras IP, paneles de administración — todavía usan HTTP.
+de 1996 que sigue funcionando en 2026 porque muchos sistemas internos
+impresoras, cámaras IP, paneles de administración todavía usan HTTP.
 En la DGA, durante mi pasantía, encontré exactamente este tipo de dispositivos.
 
 **Lo que aprendí que llevaría a un trabajo real:** antes de desplegar cualquier
 solución de monitoreo, lo primero es entender qué tráfico normal se ve en la red.
 Un analista que nunca ha capturado tráfico real no sabe distinguir lo anómalo
-de lo legítimo — y eso es exactamente lo que entrena este laboratorio.
+de lo legítimo y eso es exactamente lo que entrena este laboratorio.
 
 ---
 
@@ -299,8 +299,8 @@ de lo legítimo — y eso es exactamente lo que entrena este laboratorio.
 1. Nmap `-sS` detecta puertos, `-sV` identifica servicios y `-A` revela OS completo
 2. Wireshark identifica patrones de ataque: miles de SYN en segundos = escaneo automatizado
 3. TTL de paquetes ICMP permite fingerprinting pasivo del SO sin herramientas adicionales
-4. HTTP expone completamente credenciales — HTTPS es obligatorio en cualquier formulario
-5. Un servidor Apache falso captura credenciales reales — base del credential harvesting
+4. HTTP expone completamente credenciales HTTPS es obligatorio en cualquier formulario
+5. Un servidor Apache falso captura credenciales reales base del credential harvesting
 
 ---
 
