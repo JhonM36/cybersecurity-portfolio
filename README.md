@@ -64,16 +64,8 @@ Todos los laboratorios incluyen formato SOC:
 | 03 | [Monitoreo con SIEM — Wazuh](./03-siem-monitoring/) | Wazuh 4.7.5, MITRE ATT&CK | T1098, T1531, T1484 | ✅ Completado |
 | 04 | [Hardening en Windows Server 2019](./04-hardening/) | CIS Benchmark, PolicyAnalyzer, PowerShell | T1110, T1557.001 | ✅ Completado |
 | 05 | [Firewall, ACLs y NAT con pfSense](./05-network-security/) | pfSense 2.8.1, Nmap, IIS | T1046, T1021.001/002 | ✅ Completado |
-| 06 | [Reverse Shell Detection](./06-reverse-shell-detection/) | Metasploit, msfvenom, Wireshark | T1059, T1071, T1105, T1572 | ✅ Completado |
-| 07 | SSH Brute-Force Detection in Splunk | Kali, Metasploit, Splunk | T1110.001 | 🔜 Próximamente |
-| 08 | Port Scan Detection Engineering | Kali, Nmap, Splunk/ELK | T1046 | 🔜 Próximamente |
-| 09 | End-to-End SOC Investigation | Kali, Nmap, Metasploit, Wireshark, Splunk | T1059, T1046, T1572 | 🔜 Próximamente |
-| 10 | Network Baseline vs Attack Deviation | Kali, Wireshark, Nmap, Splunk | T1040, T1046 | 🔜 Próximamente |
-| 11 | Detection Rule Tuning & False Positive Reduction | Kali, Nmap, Metasploit, Splunk | T1110, T1046 | 🔜 Próximamente |
-| 12 | Custom Log-Based Intrusion Detection Script | Kali, Python/Bash, Splunk | T1110.001 | 🔜 Próximamente |
-| 13 | Beaconing Traffic Detection | Kali, Netcat, Wireshark, Splunk | T1071, T1572 | 🔜 Próximamente |
-| 14 | Exploitation Visibility Analysis | Kali, Metasploit, Splunk | T1190, T1059 | 🔜 Próximamente |
-| 15 | Web Attack Detection in SIEM | Kali, Metasploit, Splunk | T1190, T1059.007 | 🔜 Próximamente |
+| 06 | [Reverse Shell Detection](./06-reverse shell detection/) | Metasploit, msfvenom, Wireshark | T1059, T1071, T1105, T1572 | ✅ Completado |
+
 
 ---
 
