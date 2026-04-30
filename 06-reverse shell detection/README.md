@@ -350,7 +350,7 @@ En el panel hexadecimal se observan patrones de bytes del stage de Meterpreter
 ### 🔟 Meterpreter — sysinfo + getuid
 <img width="482" height="139" alt="sysinfo" src="https://github.com/user-attachments/assets/d53f5e3d-33f5-46df-b470-1ad220a1269a" />
 
-
+---
 <img width="426" height="36" alt="getuid" src="https://github.com/user-attachments/assets/8f977b90-0777-4584-ab22-a404a7079a7a" />
 
 ### 1️⃣1️⃣ Meterpreter — ps (payload.exe en PID 3012)
