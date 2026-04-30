@@ -4,11 +4,10 @@
 ![CCNA](https://img.shields.io/badge/Certified-CCNA-green?style=for-the-badge&logo=cisco)
 ![Google](https://img.shields.io/badge/Google-Cybersecurity-red?style=for-the-badge&logo=google)
 ![Blue Team](https://img.shields.io/badge/Focus-Blue_Team_/_SOC-informational?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs_Completados-5_/_5-success?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs_Completados-6_/_15-success?style=for-the-badge)
 
 > Analista de Ciberseguridad orientado a Blue Team con experiencia en monitoreo SIEM, análisis de tráfico y hardening de sistemas.
 > Enfocado en detección de amenazas, análisis de vulnerabilidades y seguridad perimetral.
-
 
 ---
 
@@ -44,6 +43,7 @@ y routers, gestión de tickets con Freshdesk según SLA, administración de cent
 | SIEM / Monitoreo | Wazuh, Splunk (laboratorio) |
 | Firewall / Seguridad perimetral | pfSense, ACLs, NAT, VPN |
 | Hardening | CIS Benchmark, PolicyAnalyzer, Group Policy |
+| Offensive Security | Metasploit, msfvenom, Meterpreter |
 | Redes | Switches, Routers, LAN/WAN, VoIP, Cableado estructurado |
 | Seguridad electrónica | CCTV, Control de acceso biométrico, Alarmas |
 | Sistemas | Windows 10/11, Windows Server 2019, Linux, macOS |
@@ -64,6 +64,16 @@ Todos los laboratorios incluyen formato SOC:
 | 03 | [Monitoreo con SIEM — Wazuh](./03-siem-monitoring/) | Wazuh 4.7.5, MITRE ATT&CK | T1098, T1531, T1484 | ✅ Completado |
 | 04 | [Hardening en Windows Server 2019](./04-hardening/) | CIS Benchmark, PolicyAnalyzer, PowerShell | T1110, T1557.001 | ✅ Completado |
 | 05 | [Firewall, ACLs y NAT con pfSense](./05-network-security/) | pfSense 2.8.1, Nmap, IIS | T1046, T1021.001/002 | ✅ Completado |
+| 06 | [Reverse Shell Detection](./06-reverse-shell-detection/) | Metasploit, msfvenom, Wireshark | T1059, T1071, T1105, T1572 | ✅ Completado |
+| 07 | SSH Brute-Force Detection in Splunk | Kali, Metasploit, Splunk | T1110.001 | 🔜 Próximamente |
+| 08 | Port Scan Detection Engineering | Kali, Nmap, Splunk/ELK | T1046 | 🔜 Próximamente |
+| 09 | End-to-End SOC Investigation | Kali, Nmap, Metasploit, Wireshark, Splunk | T1059, T1046, T1572 | 🔜 Próximamente |
+| 10 | Network Baseline vs Attack Deviation | Kali, Wireshark, Nmap, Splunk | T1040, T1046 | 🔜 Próximamente |
+| 11 | Detection Rule Tuning & False Positive Reduction | Kali, Nmap, Metasploit, Splunk | T1110, T1046 | 🔜 Próximamente |
+| 12 | Custom Log-Based Intrusion Detection Script | Kali, Python/Bash, Splunk | T1110.001 | 🔜 Próximamente |
+| 13 | Beaconing Traffic Detection | Kali, Netcat, Wireshark, Splunk | T1071, T1572 | 🔜 Próximamente |
+| 14 | Exploitation Visibility Analysis | Kali, Metasploit, Splunk | T1190, T1059 | 🔜 Próximamente |
+| 15 | Web Attack Detection in SIEM | Kali, Metasploit, Splunk | T1190, T1059.007 | 🔜 Próximamente |
 
 ---
 
@@ -83,6 +93,10 @@ vectores: EternalBlue, PrintNightmare, BlueKeep, NTLM Relay, LLMNR Poisoning.
 
 **Lab 05 — pfSense:** ICMP bloqueado (100% packet loss), ACLs en puertos 23/445/3389
 (`filtered`), NAT port forwarding 8080→80 verificado con `HTTP 200 OK — IIS 10.0`.
+
+**Lab 06 — Reverse Shell:** Sesión Meterpreter abierta como `JHON1499\Administrator`.
+Payload de 7,680 bytes — conexión TCP `ESTABLISHED` en puerto 4444 capturada en Wireshark.
+IOCs identificados: proceso desde `Downloads`, puerto no estándar, stage de 230,982 bytes.
 
 ---
 
