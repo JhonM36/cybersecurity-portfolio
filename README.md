@@ -4,7 +4,7 @@
 ![CCNA](https://img.shields.io/badge/Certified-CCNA-green?style=for-the-badge&logo=cisco)
 ![Google](https://img.shields.io/badge/Google-Cybersecurity-red?style=for-the-badge&logo=google)
 ![Blue Team](https://img.shields.io/badge/Focus-Blue_Team_/_SOC-informational?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs_Completados-6_/_15-success?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs_Completados-6_/_6-success?style=for-the-badge)
 
 > Analista de Ciberseguridad orientado a Blue Team con experiencia en monitoreo SIEM, análisis de tráfico y hardening de sistemas.
 > Enfocado en detección de amenazas, análisis de vulnerabilidades y seguridad perimetral.
