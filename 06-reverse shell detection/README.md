@@ -306,6 +306,7 @@ En el panel hexadecimal se observan patrones de bytes del stage de Meterpreter
 ### 4️⃣ Ping bidireccional — Conectividad confirmada
 <img width="538" height="233" alt="Ping bidireccional — Conectividad confirmada" src="https://github.com/user-attachments/assets/4911e2ff-43ac-4de4-9d9a-aeef86e0cbc3" />
 
+---
 <img width="539" height="260" alt="Ping bidireccional — Conectividad" src="https://github.com/user-attachments/assets/c418c2a6-58ec-40bb-b0ca-9b3d7bcceb49" />
 
 ### 5️⃣ Wireshark — Captura iniciada antes del ataque
@@ -317,29 +318,29 @@ En el panel hexadecimal se observan patrones de bytes del stage de Meterpreter
 ### 7️⃣ Metasploit — Configuración del listener (pasos 1-5)
 <img width="624" height="695" alt="Configuración del listener" src="https://github.com/user-attachments/assets/de7c1e62-c49f-41fc-b081-e2b141691bab" />
 
-
+---
 <img width="511" height="38" alt="Configuración del listener 1" src="https://github.com/user-attachments/assets/e65f65a8-2c62-4eab-95d5-5dccb600eb3d" />
 
-
+---
 <img width="624" height="33" alt="Configuración del listener 2" src="https://github.com/user-attachments/assets/897ce66d-b05e-458c-ba6f-2c9b9d646680" />
 
-
+---
 <img width="478" height="34" alt="Configuración del listener 3" src="https://github.com/user-attachments/assets/d1985b49-e4b4-42ad-a356-fb6c6422fdcd" />
 
-
+---
 <img width="442" height="38" alt="Configuración del listener 4" src="https://github.com/user-attachments/assets/54486317-6e2b-4821-9f4c-a93cb4fd27f3" />
 
-
+---
 <img width="624" height="30" alt="Configuración del listener 5" src="https://github.com/user-attachments/assets/7b0264a2-789e-4a8c-8e6e-2ee4c96c1e64" />
 
 
 ### 8️⃣ Transferencia del payload via HTTP (Python server + descarga en Windows)
 <img width="446" height="98" alt="Transferencia del payload via HTTP (Python server + descarga en Windows)" src="https://github.com/user-attachments/assets/558e514b-dc89-4732-ab77-2146b24de010" />
 
-
+---
 <img width="624" height="489" alt="Transferencia del payload via HTTP  Windows" src="https://github.com/user-attachments/assets/c94723c7-e81a-4d66-a5b6-06f952d70d8f" />
 
-
+---
 <img width="405" height="126" alt="Transferencia del payload via HTTP  descarga en Windows" src="https://github.com/user-attachments/assets/6099b4a8-019b-4a46-90d1-1ee4f9d01d19" />
 
 
