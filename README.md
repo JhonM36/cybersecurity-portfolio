@@ -28,7 +28,7 @@ Instalación y soporte de sistemas CCTV (IP y analógica), control de acceso bio
 sistemas de alarma e intrusión y detección de incendios.
 
 **Soporte Técnico | Consultoría Tecnológica Avanzada — Grupos CTA**
-`Enero 2025 – Julio 2025`
+`Abril 2025 – Julio 2025`
 Administración de redes LAN empresariales, soporte a VPN, configuración de switches
 y routers, gestión de tickets con Freshdesk según SLA, administración de centrales VoIP.
 
